@@ -1,0 +1,17 @@
+{
+  "name": "bajaj-collections-api",
+  "version": "1.0.0",
+  "description": "Mock Loan Management API for Bajaj Finance EMI Collections Voice AI Demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "uuid": "^10.0.0"
+  }
+}
