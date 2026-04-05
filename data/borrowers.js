@@ -198,7 +198,13 @@ const borrowers = {
         dpd: 45
       }
     ],
-    recent_payment: null,
+    recent_payment: {
+      amount: 2870,
+      date: "2026-04-04",
+      mode: "UPI",
+      reference: "UPI-TXN-556677889",
+      status: "SUCCESS"
+    },
     flags: ["PARTIAL_PAYER", "HINDI_ONLY"],
     collection_history: [
       { date: "2026-03-10", disposition: "PARTIAL_PAYMENT", notes: "Paid Rs.1,500 against Rs.2,870 EMI" }
